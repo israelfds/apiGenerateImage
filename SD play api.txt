@@ -1,0 +1,1 @@
+python .\launch.py --skip-torch-cuda-test --lowvram --no-half --nowebui --precision full

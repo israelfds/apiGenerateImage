@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gerador de Imagem</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 style="text-align: center; font-size: 36px; margin-top: 20px;">Generate Image IA</h1>
+
+  <div class="input-container">
+    <input type="text" id="prompt" class="input-box" placeholder="Digite o prompt para a imagem">
+    <button onclick="generateImage()">Gerar Imagem</button>
+  </div>
+
+  <div class="loading" id="loading"></div> <!-- Elemento de loading -->
+
+  <img id="generatedImage" src="" alt="Imagem gerada">
+  
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
